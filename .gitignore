@@ -1,0 +1,34 @@
+# File e directory standard di WordPress da ignorare
+wp-config.php
+wp-content/uploads/
+wp-content/advanced-cache.php
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backups/
+
+# Ignora il file di configurazione del tema
+wp-content/themes/.env
+
+# Ignora file generati automaticamente
+*.log
+*.tmp
+*.swp
+*.bak
+*.save
+
+# Ignora file di sistema comuni
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignora file di Composer
+vendor/
+composer.lock
+
+# Ignora file relativi a IDE/editor
+.idea/
+.vscode/
+*.iml
+
+# Ignora file temporanei e nascosti
+.env
